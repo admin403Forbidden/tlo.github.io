@@ -1,123 +1,51 @@
 ---
 layout: default
 ---
+这里是TLO（The Last One）的官方页面。TLO是一个Minecraft整合包，立志于让玩家拥有更困难的游戏体验。
+TLO受到了僵尸启示录、惊变100天等整合包的启发，融入了多项怪物增强mod，加强“末日”、“单人勇闯MC”的体验。游戏对部分老电脑，笔记本压力较大，推荐使用台式机或者游戏本。内置显核可以支撑本整合包（AMD Redaon Vega 8 Graphics可以稳定在30fps左右）。
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+当前Minecraft版本为1.19.2，需要JDK17。
+整合包采用Forge API，可以添加mod，**并没有高清修复等其他Mod支持光影**，光影和材质包请自行安装。
 
-[Link to another page](./another-page.html).
+# 游戏主题
 
-There should be whitespace between paragraphs.
+僵尸：低吼；
+苦力怕：嘶嘶嘶~
+身处疫区的你以及无法逃脱。早期玩家因为感染一种未知病毒而变为僵尸，苦力怕等等敌对生物。当心！！僵尸的走搭和垫高速度远高于你！！高空绝对不是安全的地方。庇护所不再安全，因为苦力怕会炸毁一切玩家的东西，来辅助僵尸进攻。注意身后！！！几乎所有怪物都能够乘坐鹦鹉飞翔！
+战斗吧，玩家！这里有丰厚的奖励。超级难打的稀有精英怪那里有意想不到的宝物；亡灵军团的礼物等待领取；血月之夜的怪物军团必定有极为雄厚的战利品。
+注意身体，不要过热或者过冷，多喝点水。
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## 版本兼容性
 
-# Header 1
+整合包版本：V1.0.1(R1B2)
+第一版正式版更新，基于第二版预览版更新测试。
+本体版本：Minecraft 1.19.2
+Forge API版本：43.1.7
+整合包名称：The_LAST_ONE 1.19.2 F
+无缝更新：不支持，整合包更新需要重新安装
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## 更新内容
 
-## Header 2
+基于Minecraft 1.19.2的整合包正式发布！
+本次更新为正式版首次发布，基于Beta2修改，多项稳定优化，推荐游玩尝试。本次更新并没有更新MC版本和Forge版本，可以直接拷贝存档到新的save目录中。
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+1.游戏内容更新
+  新增血月，超级月亮等事件，添加游戏趣味
+  枪支活动支持
+  静谧的四季活动支持，联动意志坚定，加强难度。
+2.基础体验优化
+  小地图优化
+  键位优化
+  稳定新优化
+3.停用内容
+  由于EnhancedAI可能造成游戏部分场景下崩溃卡顿，现给予停用。如果没有出现崩溃情况可以在启动器mod管理中开启。
 
-### Header 3
+启动器版本推荐使用HMCL或者PCL2（基于PCL2构建，HMCL打包）
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## 后续计划
+工业化
+更好的性能
+夸克优化
+核心jar文件修改，配置文件深度优化
+……更多内容尽请期待
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
